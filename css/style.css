@@ -12,6 +12,14 @@ html {
     padding: 0 20px;
 }
 
+.primary-button a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 10px;
+}
+
 /* HEADER */
 
 header {
@@ -21,6 +29,7 @@ header {
 .header-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 0;
 }
 
@@ -36,6 +45,15 @@ header {
     display: inline-block;
     color: white;
     text-decoration: none;
+    padding: 10px;
+}
+
+.header-section img {
+    vertical-align: middle;
+}
+
+.hamburger svg {
+    fill: white;
 }
 
 /* MAIN */
