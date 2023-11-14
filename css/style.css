@@ -1,0 +1,21 @@
+@import url('./reset.css');
+
+/* GENERAL */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
+
+/* MEDIA QUIERY */
+
