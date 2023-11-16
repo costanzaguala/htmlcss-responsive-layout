@@ -12,6 +12,12 @@ html {
     padding: 0 20px;
 }
 
+.container-small {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .primary-button a {
     text-decoration: none;
     color: black;
@@ -20,11 +26,56 @@ html {
     padding: 10px 10px;
 }
 
-/* HEADER */
+.secondary-button a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 25px;
+    padding: 10px 50px;
+}
 
-header {
+.third-button a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.my-col {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.bg-main {
     background-color: var(--main-color);
 }
+
+.bg-main-light {
+    background-color: var(--main-color-light);
+}
+
+.bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+.bg-white {
+    background-color: var(--bg-white);
+}
+
+/* HEADER */
 
 .header-section {
     display: flex;
@@ -58,9 +109,109 @@ header {
 
 /* MAIN */
 
+/* INIZIO SECTION 1 */
+
+main > section {
+    padding: 30px 0;
+}
+
+.card-info > * {
+    padding: 20px;
+}
+
+.fa-apple {
+    color: var(--bg-white);
+    padding-right: 5px;
+}
+
+.card-small {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.card-small > * {
+    padding: 10px 0;
+}
+
+.card-small :first-child {
+    color: var(--main-color);
+}
+
+#section-1 h3 {
+    color: var(--main-color);
+}
+
+#section-1 img {
+    width: 200px;
+    margin-bottom: -7px
+}
+
+/* FINE SECTION 1 */
+
+/* INIZIO SECTION 2 */
+
+#section-2 img {
+    width: 100%;
+}
+
+.planning-container-left > :first-child {
+    text-align: center;
+}
+
+.planning-container-left > * {
+    padding: 20px 0;
+    color: var(--bg-white);
+}
+
+.planning-container-right {
+    border-radius: 25px;
+    text-align: center; 
+}
+
+.planning-container-right > *{
+    padding: 20px 0;
+
+}
+
+.planning-container > * {
+    padding: 40px;
+}
+
+/* FINE SECTION 2 */
+
+
+
 /* FOOTER */
 
+footer {
+    text-align: center;
+    color: white;
+    background-color: var(--footer-color);
+    padding: 50px 0;
+}
+
+footer .container-small :first-child {
+    padding-bottom: 40px;
+}
+
+footer a {
+    color: var(--secondary-color);
+}
+
 /* MEDIA QUIERY */
+
+@media screen and (min-width: 768px) {
+
+    .my-col-tablet-33 {
+        width: calc((100% / 3) - 20px);
+    }
+
+    .my-col-tablet-66 {
+        width: calc(((100% / 3) * 2) - 20px);
+    }
+
+} 
+
 
 @media screen and (min-width: 992px) {
 
@@ -71,6 +222,31 @@ header {
     .hamburger {
         display: none;
     }
+
+    .main-card {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .main-card > :first-child {
+        width: 60%;   
+    }
+
+    .main-card > :last-child {
+        width: 40%;   
+    }
+
+    #section-2 .planning-container {
+        padding:  50px 60px;
+    }
+    
+    .planning-container  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 } 
+
 
 

@@ -7,6 +7,8 @@
 :root {
     --main-color: #0084fd;
     --main-color-light: #B6DDFF;
-    --secondary-color: #B6DDFF;
+    --secondary-color: #9692E3;
     --accent-text-color: #FDC15E;
+    --bg-white: white;
+    --footer-color: #333333;
 }
