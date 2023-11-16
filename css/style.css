@@ -45,6 +45,16 @@ html {
     vertical-align: middle;
 }
 
+.fourth-button a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--secondary-color);
+    background-color: var(--bg-white);
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-weight: 900;
+}
+
 .my-row {
     display: flex;
     flex-wrap: wrap;
@@ -179,6 +189,44 @@ main > section {
 
 /* FINE SECTION 2 */
 
+/* INIZIO SECTION 6 */
+
+#section-6 {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.container-small-section > * {
+    padding: 15px 0;
+}
+
+#section-6  h5 {
+    color: var(--bg-white);
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#section-6  h3 {
+    color: var(--bg-white);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#section-6  h2 {
+    color: var(--accent-text-color);
+    font-weight: 900;
+    font-size: 45px;
+}
+
+#section-6  p {
+    color: var(--bg-white);
+
+}
+
+#section-6 p a {
+    color: var(--bg-white);
+}
+/* FINE SECTION 6 */
 
 
 /* FOOTER */
